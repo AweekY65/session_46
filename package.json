@@ -1,0 +1,15 @@
+{
+  "name": "local-crdt-text",
+  "version": "1.0.0",
+  "description": "完全本地的协同文本 CRDT 引擎（RGA + 版本向量），无任何外部服务依赖",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/demo.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
